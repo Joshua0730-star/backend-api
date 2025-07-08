@@ -1,0 +1,35 @@
+### Llamada post al endpoint principal
+
+POST http://localhost:3001/generate
+Content-Type: application/json
+
+{
+    "figmaData": [{  
+        "childCss": [],
+        "cornerRadius": 8,
+        "counterAxisAlignItems": "MIN",
+        "counterAxisSizingMode": "FIXED",
+        "effects": [],
+        "fills": [],
+        "height": 1059,
+        "id": "4:103",
+        "itemSpacing": 54,
+        "name": "Buttons",
+        "paddingBottom": 197,
+        "paddingLeft": 112,
+        "paddingRight": 112,
+        "paddingTop": 197,
+        "parentId": "0:1",
+        "primaryAxisAlignItems": "MIN",
+        "primaryAxisSizingMode": "FIXED",
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "width": 1128
+
+    }],
+    "technologies": {
+                "leftTec": "html",
+                "rightTec": "css"
+            }
+}
